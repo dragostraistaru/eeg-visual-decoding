@@ -8,10 +8,10 @@ Proiect de echipă despre reconstrucția aproximativă a conținutului vizual pe
 
 ## Echipa
 
-- Nume membru 1: `de completat`
-- Nume membru 2: `de completat`
-- Nume membru 3: `de completat`
-- Nume membru 4: `de completat`
+- Nume membru 1: `Traistaru Dragos`
+- Nume membru 2: `Zdroba Petru`
+- Nume membru 3: `Varkoni Vlad`
+
 
 ## Problema abordată
 
@@ -206,7 +206,4 @@ Proiectul se poate lega foarte bine de:
 	```
 4. Pornim notebook-urile sau aplicația Streamlit, în funcție de etapa proiectului.
 
-## Note
 
-- Structura de mai sus este gândită pentru un proiect de echipă și pentru livrările intermediare cerute la laborator.
-- Dacă dataset-ul ales și resursele disponibile o permit, pasul de generare poate fi adăugat după retrieval, nu neapărat din prima.
