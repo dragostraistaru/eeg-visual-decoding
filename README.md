@@ -12,6 +12,32 @@ Proiect de echipă despre reconstrucția aproximativă a conținutului vizual pe
 - Nume membru 2: `Zdroba Petru`
 - Nume membru 3: `Varkoni Vlad`
 
+## Dataset Setup
+
+Data downloada de la [OSF link](https://osf.io/3jk45/overview):
+- `raw_eeg_*.npy` files → `data/raw/things-eeg2/raw-eeg/`
+- `image_metadata.npy` → `data/processed/`
+- `training_images.zip` → `data/raw/images/`
+- `test_images.zip` → `data/raw/images/`
+
+Directorul dataset arata asa:
+```
+data/
+├── raw/
+│   ├── things-eeg2/
+│   │   ├── raw-eeg/
+│   │   │   └── sub-01/
+│   │   │       ├── ses-01/
+│   │   │       ├── ses-02/
+│   │   │       ├── ses-03/
+│   │   │       └── ses-04/
+│   │   └── images/
+│   │       ├── training_images/
+│   │       └── test_images/
+└── processed/
+    ├── image_metadata.npy
+    └── things-eeg2/
+```
 
 ## Problema abordată
 
@@ -184,25 +210,12 @@ Proiectul se poate lega foarte bine de:
 
 ## Bibliografie și resurse utile
 
-- Gramfort, A. et al. - MNE-Python: A software package for processing MEG and EEG data.
-- Schirrmeister, R. T. et al. - Deep learning with convolutional neural networks for EEG decoding.
-- Lawhern, V. J. et al. - EEGNet: A compact convolutional neural network for EEG-based brain-computer interfaces.
-- Song, Y. et al. - EEG-Conformer: Convolutional transformer for EEG decoding.
-- Perceivelab - EEG Visual Classification repository: https://github.com/perceivelab/eeg_visual_classification
-- Prajwal Singh - EEG2Image repository: https://github.com/prajwalsingh/EEG2Image
-- MNE-Python repository: https://github.com/mne-tools/mne-python
-- Braindecode repository: https://github.com/braindecode/braindecode
-- ARL EEG Models repository: https://github.com/vlawhern/arl-eegmodels
-- EEG-Conformer repository: https://github.com/eeyhsong/EEG-Conformer
-
-## Resurse tehnice folosite
-
-- MNE-Python pentru încărcarea și preprocesarea semnalelor EEG;
-- Braindecode pentru modele și pipeline-uri EEG;
-- EEGNet și modele similare pentru clasificare;
-- top-k retrieval pe baza embedding-urilor;
-- imagini recuperate ca bază pentru etapa opțională de generare.
-
+- MNE-Python: https://github.com/mne-tools/mne-python
+- Braindecode: https://github.com/braindecode/braindecode
+- ARL EEG Models: https://github.com/vlawhern/arl-eegmodels
+- EEG-Conformer: https://github.com/eeyhsong/EEG-Conformer
+- EEG Visual Classification: https://github.com/perceivelab/eeg_visual_classification
+- EEG2Image: https://github.com/prajwalsingh/EEG2Image
 ## Cum rulăm proiectul
 
 1. Creăm mediul virtual:

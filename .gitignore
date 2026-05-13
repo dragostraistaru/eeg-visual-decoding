@@ -45,3 +45,8 @@ Thumbs.db
 # Project outputs and artifacts
 outputs/
 saved_models/
+
+# Large dataset files - not tracked on GitHub
+data/raw/things-eeg2/raw-eeg/
+data/raw/images/
+data/processed/things-eeg2/
